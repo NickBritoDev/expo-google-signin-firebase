@@ -1,4 +1,3 @@
-
 import { initializeApp } from "firebase/app";
 import {getAuth} from 'firebase/auth';
 
@@ -14,5 +13,3 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-
-// !android: "528897780385-49f5rcbnp9b3gv0ulcababb7c7bkf8n8.apps.googleusercontent.com"
