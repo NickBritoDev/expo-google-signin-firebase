@@ -13,6 +13,7 @@ export default function App() {
   const [userInfo, setUserInfo] = useState();
   const [request, response, promptAsync] = Google.useAuthRequest({
     androidClientId: "528897780385-49f5rcbnp9b3gv0ulcababb7c7bkf8n8.apps.googleusercontent.com",
+    iosClientId: "528897780385-9eb64vacj63893amv1odqobt8e968j0h.apps.googleusercontent.com",
     webClientId: "528897780385-le2ou4fm22s5c2hp62sm8uk41o1s0u2j.apps.googleusercontent.com",
   });
 
