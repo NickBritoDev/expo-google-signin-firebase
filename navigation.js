@@ -23,7 +23,7 @@ const Navigation = () => {
                 {userInfo ? (
                     <>
                         <Stack.Screen name="Home">
-                            {(props) => <Home {...props} userInfo={userInfo}/>}
+                            {(props) => <Home {...props} userInfo={userInfo} />}
                         </Stack.Screen>
                         <Stack.Screen name="Profile">
                             {(props) => <Profile {...props} userInfo={userInfo} signOut={signOut} />}
